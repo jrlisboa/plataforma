@@ -1,0 +1,316 @@
+/*
+	   **************    ////////////
+	   **************	 ////////////
+			 ****		 ////    ////		  Empresa: Ponte21
+			 ****        ////  ////
+		***	 ****        //////////
+		***  ****	     ///// //////		  Front-end by:
+		*********        ////    /////   **	  Junior Lisboa
+		*********        ////     /////  **   www.lobon.com.br
+*/
+
+
+/* Configs */
+
+html{height: 100%;}
+body{height: 100%; background-color: #f7f7f7}
+
+
+
+.container{width: 82%}
+.top-home{height: 100%}
+.menu{margin-top: 20px; background-color: #f7f7f7}
+.destaque{text-decoration: line-through}
+.overflow{overflow: hidden;}
+.absolute{
+	position: absolute;
+	padding-right: 70px !important;
+	background-color: rgba(0,0,255,0.3);
+	height: 100%;
+}
+
+
+/* Animations */
+
+@keyframes esquerda {
+    from {margin-top: 15px;}
+    to {margin-top: 0px;}
+}
+
+@keyframes direita {
+    from {margin-top: 15px;}
+    to {margin-top: 30px;}
+}
+
+@keyframes aparecece {
+    from {opacity: 0.0}
+    to {opacity: 10}
+}
+
+
+/* Menu elements */
+
+.brand-logo{
+	font-weight: 600;
+}
+.menu-item{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.side-nav img{
+	width: 20px;
+}
+
+
+
+/* Social Buttons*/
+
+@media screen and (max-width: 808px) {
+  .social{display: none;}
+}
+
+.social{
+
+	position: fixed;
+	margin-left: 50px;
+	margin-top: 20%;
+	z-index: 999;
+}
+
+.social img{
+
+	width: 20px;
+	margin-bottom: 28px;
+}
+
+
+
+
+/* Homepage elements */
+
+/* Pics */
+
+.foto-home{
+	height: 90vh;
+	padding: 17% 3% 0% 5% !important;
+	z-index: 2;
+	position: relative;
+}
+
+.foto-home h2{
+
+	font-weight: 350;
+	font-size: 1.3em;
+	color: #fff;
+}
+
+.foto-home span{
+	color: #fff;
+	font-weight: 500;
+	font-size: 2.6em;
+}
+
+.esquerda{
+	background-image: url('../assets/home_02.png');
+	animation-name: esquerda;
+    animation-duration: 1.5s;
+    background-position: center;
+    background-size: 600px;
+    -webkit-transition: background-size 2s; /* Safari */
+    transition: background-size 2s;
+}
+
+
+.direita{
+	background-image: url('../assets/home_01.png');
+	animation-name: direita;
+    animation-duration: 1.5s;
+    margin-top: 30px;
+    background-position: center;
+    background-size: 600px;
+}
+
+
+/* Faixa transversal de background*/
+
+.faixa{
+
+	background-image: url('../assets/fundo.png');
+	width: 100%;
+	height: 2000px;
+	position: absolute;
+	margin-top: -1000px;
+	z-index: 1;
+}
+
+/* Texto sobre o curso*/
+
+.texto-home{
+	margin-top: 100px;
+	z-index: 999;
+	position: relative;
+}
+
+.texto-home span{
+	background-color: yellow;
+}
+
+.texto-home h4{
+
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 1.5
+}
+
+.texto-home h2{
+
+	font-weight: 500;
+	font-size: 2.1em;
+}
+
+
+
+
+
+
+
+/* Cursos */
+
+.cursos{
+	z-index: 2;
+	position: relative;
+	margin-top: 500px;
+	height: 300px;
+	margin-top: 250px;
+}
+.cursos2{
+	z-index: 2;
+	position: relative;
+	height: 300px;
+	margin-top: -20px;	
+}
+
+.cont-cursos{
+	padding: 20px;
+}
+
+.quadrado-imagem{
+	
+	height: 300px;
+	background-color: black;
+	padding: 0px !important;
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s
+}
+
+.quadrado-imagem:hover .chip{
+	display: block;
+}
+
+.row .col{
+	padding: 0px;
+}
+
+.quadrado-imagem h2{
+
+	font-size: 23px;
+	margin-left: 30px;
+	margin-top: 30px;
+	color: #fff;
+	font-weight: 500;
+	margin-right: 30px;
+	line-height: 1.6;
+	z-index: 8;
+	position: relative;
+}
+
+.quadrado-imagem img{
+	height: 100%;
+	width: auto;
+}
+
+.escuro{
+	z-index: 5;
+	height: 100%;
+	opacity: 0.4;
+	width:100%;
+	position: absolute;
+	background-color: #000;
+}
+
+.primeiro-quadrado{
+
+	padding-top: 60px !important;
+}
+
+.primeiro-quadrado span{
+	font-size: 55px;
+	line-height: 1.0;
+	font-weight: 600;
+	position: relative;
+	margin-left: -40px;
+	color: black;
+}
+
+.chip{
+	margin-left: 30px;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+	display: none;
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s
+}
+
+.completobtn{
+
+	position: relative;
+	z-index: 8;
+	color: #000;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.completobtn span:hover{
+	border-bottom: 2px solid #000;
+}
+
+
+
+
+/* Mastertechers */
+
+.cards-techers{
+	
+	margin-top: 80px;
+}
+
+.techer{
+	margin: 10px;
+	box-shadow: 0px 5px 30px 0px #ccc;
+	padding: 0px;
+	height: 250px;
+}
+
+.techer span{
+	color: #000;
+	font-size: 20px;
+}
+
+.techer span p{
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	line-height: 1.0;
+}
+
+.techer img{
+	height: 100%;
+}
+
+
+.conteudo{
+	padding-left: 20px !important;
+}
