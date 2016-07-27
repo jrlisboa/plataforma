@@ -63,10 +63,10 @@
           </div>
       </div>
 
-      <div class="container">
+      <div class="container response-text">
         <div class="row">
           <div class="col s12 m12 l6 offset-l1 texto-home">
-            <h4>O MasterTech é uma <span>plataforma de desenvolvimento contínuo de habilidades do século 21.</span> Estudaos quais são as habilidadesessenciais do e criamos cursos imersivos para que as pessoas possam dominar essas cometências na prática e aplicá-las no dia a dia.</h4>
+            <h4>O MasterTech é uma <span>plataforma de desenvolvimento contínuo de habilidades do século 21.</span> Estudamos quais são as habilidadesessenciais do e criamos cursos imersivos para que as pessoas possam dominar essas cometências na prática e aplicá-las no dia a dia.</h4>
           </div>
         </div>
       </div>
@@ -185,7 +185,7 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container response-text">
         <div class="row">
           <div class="col s12 m12 l6 offset-l1 texto-home">
             <h2>MASTERTECHERS</h2>
@@ -196,7 +196,7 @@
 
       <div class="container">
         <div class="row cards-techers">
-          <div class="col s12 m6 l6">
+          <div class="col s12 m6 l6 resp">
             <div class="card-panel white techer">
               <img src="assets/eric.png" class="col s12 m6 l6">
               <div class="conteudo col s12 m6 l6 ">
@@ -207,7 +207,7 @@
             </div>
           </div>
 
-          <div class="col s12 m6 l6">
+          <div class="col s12 m6 l6 resp">
             <div class="card-panel white techer">
               <img src="assets/gisele.png" class="col s12 m6 l6">
               <div class="conteudo col s12 m6 l6 ">
@@ -218,7 +218,7 @@
             </div>
           </div>
 
-          <div class="col s12 m6 l6">
+          <div class="col s12 m6 l6 resp">
             <div class="card-panel white techer">
               <img src="assets/angela.png" class="col s12 m6 l6">
               <div class="conteudo col s12 m6 l6 ">
@@ -243,6 +243,68 @@
         </div>
       </div>
 
+
+      <div class="container">
+        <div class="row video">
+          <div class="col s12 m12 l7 video-video">
+            <iframe class="iframe-video" src="https://www.youtube.com/embed/8M7Qie4Aowk?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col s12 m12 l5 texto-video">
+            <div class="conteudo conteudo-video">
+              <span><p>REFERÊNCIA EM ENSINO IMERSIVO NO BRASIL</p>
+              O MasterTech saiu no Jornal da Globo como alternativa para proficionais acelerarem suas carreiras e entrarem no mercado de tecnologia.<br><br>
+              Na matéria, dois alunos deram depoimento de como a tecnologia utilizada por eles pode transformar e ajudar a resolver problemas reais.<br><br>Assista ao vídeo ou veja a <span class="sublinhado"><a href="">Reporagem na integra.</a></span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+      <div class="container branco-caixa">
+        <div class="row email">
+          <div class="col s12 m12 l9 texto-email">
+            <div class="col s12 m12 l8">
+              TUDO SOBRE TECNOLOGIA, NEGÓGIOS E DESIGN DIRETO NO 
+            </div>
+            <div class="input-field col s12 m12 l4 aeho">
+              <input id="email" type="email" class="validate">
+              <label for="email">Seu Email</label>
+            </div>
+          </div>          
+
+          <a class="waves-effect waves-light btn blue quero-btn col s12 m12 l2 offset-l1 z-depth-2">QUERO</a>
+        </div>
+      </div>
+
+      <div class="container baixo">
+        <footer>
+          <div class="row footer">
+            <div class="col s12 m6 l3 gostou">
+              <span>GOSTOU?<br>TEM MAIS</span>
+            </div>
+
+            <div class="col s12 m6 l3 imersivos">
+              <span>IMERSIVO FULL-STAKE</span><br>
+              <span>IMERSIVO TECNOLOGIAS</span><br>
+              <span>SEMI-IMERSIVO</span><br>
+              <span>WORKSHOPS</span><br>
+            </div>
+
+            <div class="col s12 m6 l3 imersivos">
+              <span>INSTRUTORES</span><br>
+              <span>CALENDÁRIOS</span><br>
+              <span>LOCAIS</span><br>
+              <span>FAQ</span><br>
+            </div>
+
+            <div class="col s12 m6 l3">
+              <a class="waves-effect waves-light btn black quero-btn2 z-depth-2">SEJA INSTRUTOR MASTERTECH</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+
       
 
       <!--Import jQuery before materialize.js-->
@@ -260,10 +322,10 @@
             console.log("Coluna da direita!");
             $( "#foto-esquerda" ).animate({
               marginTop: '30px'
-            }, 1000);
+            }, 500);
             $( "#foto-direita" ).animate({
               marginTop: '0px'
-            }, 1000);
+            }, 500);
             topo = 1;
           }
         });
@@ -274,10 +336,10 @@
             console.log("Coluna da esquerda!");
             $( "#foto-esquerda" ).animate({
               marginTop: '0px'
-            }, 1000);
+            }, 500);
             $( "#foto-direita" ).animate({
               marginTop: '30px'
-            }, 1000);
+            }, 500);
             topo = 0;
           }
         });
