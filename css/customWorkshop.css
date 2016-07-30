@@ -63,7 +63,22 @@ body{height: 100%; background-color: #f7f7f7}
 	width: 20px;
 }
 
+.menu2{
 
+	margin-top: 80px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.menu2 a{
+	color: black;
+	font-size: 2.0em;
+	font-weight: 600;
+}
+
+.ativo{
+	color: red;
+}
 
 
 
@@ -186,7 +201,19 @@ body{height: 100%; background-color: #f7f7f7}
 	font-size: 2.1em;
 }
 
+.proximos{
 
+	font-weight: 600;
+	font-size: 2.6em;
+}
+
+.titulo-proximos{
+	margin-top: 20vh;
+}
+
+.item-proximos{
+
+}
 
 
 
@@ -478,10 +505,73 @@ footer{
 
 
 
+/* Customs*/
 
 
+.entra-baixo{
+
+	margin-bottom: -35px !important;
+}
 
 
+.filter{
+
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.quadrado-imagem{
+	margin-left: -50px !important;
+}
+
+
+.curso-maior{
+
+	margin-bottom: 50px;
+}
+
+.curso-maior-ultimo{
+	margin-bottom: 10px;
+}
+
+
+.completobtn{
+	margin-left: 350px !important;
+	margin-top: -30px;
+}
+
+.completobtn span{
+	font-size: 1.2em;
+}
+
+.segura{
+	height: 100vh;
+	margin-top: 15vh;
+}
+
+.div-cima{
+	float: left;
+	position: relative;
+	background-color: #fff;
+	height: 40vh;
+	width: 60%;
+	z-index: 89;
+	margin-top: 10vh;
+	box-shadow: 0px 0px 30px 0px #ccc;
+}
+
+.video-baixo{
+	float: right;
+	position: relative;
+	background-color: blue;
+	height: 60vh;
+	width: 60%;
+	margin-top: -50vh;
+	z-index: 88;
+	box-shadow: 0px 5px 30px 0px #ccc;
+}
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
