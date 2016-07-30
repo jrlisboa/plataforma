@@ -560,18 +560,58 @@ footer{
 	z-index: 89;
 	margin-top: 10vh;
 	box-shadow: 0px 0px 30px 0px #ccc;
+	padding-left: 40px;
+	padding-top: 40px;
 }
 
 .video-baixo{
 	float: right;
 	position: relative;
-	background-color: blue;
 	height: 60vh;
 	width: 60%;
 	margin-top: -50vh;
 	z-index: 88;
 	box-shadow: 0px 5px 30px 0px #ccc;
 }
+
+.segundo-texto{
+	margin-top: 0px !important;
+	margin-bottom: 100px !important;
+}
+
+.mudei{
+	margin-left: 30px !important;
+	margin-top: 5px !important;
+}
+
+.mudei span{
+	font-size: 1.2em;
+}
+
+.item-faq{
+	margin-bottom: 30px !important;
+	box-shadow: 0 0 0 0;
+}
+
+.pergunta{
+	font-size: 2.2em;
+	font-weight: 600;
+	height: 80px;
+}
+
+.pergunta span{
+
+	margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1053,5 +1093,118 @@ footer{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+
+
+
+
+/* Customs*/
+
+
+.entra-baixo{
+
+	margin-bottom: -35px !important;
+}
+
+
+.filter{
+
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.quadrado-imagem{
+	margin-left: 0px !important;
+}
+
+
+.curso-maior{
+
+	margin-bottom: 50px;
+}
+
+.curso-maior-ultimo{
+	margin-bottom: 10px;
+}
+
+
+.completobtn{
+	margin-left: 0px !important;
+	margin-top: 30px;
+}
+
+.completobtn span{
+	font-size: 1.2em;
+}
+
+
+
+
+
+.segura{
+	height: auto;
+	margin-top: 15vh;
+}
+
+.div-cima{
+	float: none;
+	position: relative;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	z-index: 89;
+	margin-top: 10vh;
+	box-shadow: 0px 0px 0px 0px #ccc;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.video-baixo{
+	float: none;
+	position: relative;
+	height: 60vh;
+	width: 100%;
+	margin-top: 0vh;
+	z-index: 88;
+	box-shadow: 0px 5px 30px 0px #ccc;
+	margin-bottom: 30px;
+	
+}
+
+.segundo-texto{
+	margin-top: 0px !important;
+	margin-bottom: 100px !important;
+}
+
+.mudei{
+	margin-left: 0px !important;
+	margin-top: 5px !important;
+}
+
+.mudei span{
+	font-size: 1.2em;
+}
+
+.item-faq{
+	margin-bottom: 30px !important;
+	box-shadow: 0 0 0 0;
+}
+
+.pergunta{
+	font-size: 2.2em;
+	font-weight: 600;
+	height: auto;
+}
+
+.pergunta span{
+
+	margin-top: -30px;
+}
+
+
+
+
 
 }
