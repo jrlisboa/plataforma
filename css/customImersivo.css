@@ -694,7 +694,10 @@ footer{
 	
 }
 
+.ye{
 
+	margin-top: 15vh !important;
+}
 
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1235,7 +1238,7 @@ footer{
 .div-cima{
 	float: none;
 	position: relative;
-	background-color: #fff;
+	background-color: inherit;
 	height: auto;
 	width: 100%;
 	z-index: 89;
@@ -1252,8 +1255,8 @@ footer{
 	width: 100%;
 	margin-top: 0vh;
 	z-index: 88;
-	box-shadow: 0px 5px 30px 0px #ccc;
-	margin-bottom: 30px;
+	box-shadow: 0px 0px 0px 0px #ccc;
+	margin-bottom: 160px;
 	
 }
 
@@ -1286,6 +1289,110 @@ footer{
 
 	margin-top: -30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custons  */
+
+
+
+
+
+
+.ementa{
+
+	font-weight: 400;
+	font-size: 1.7em;
+	margin-top: 20px;
+	text-align: right;
+	padding-right: 30px !important;
+}
+
+.oq-tem{
+
+	font-size: 1.5em !important;
+	font-weight: 500;
+}
+
+
+.modulos{
+
+	margin-top: 25vh;
+	margin-bottom: 25vh;
+	z-index: 999;
+	position: relative;
+}
+
+
+.conteudo-modulo{
+	height: 70vh;
+	padding: 8% !important;
+}
+
+.conteudo-modulo h4{
+
+	font-size: 2em !important;
+	font-weight: 500;
+	margin-bottom: 40px !important;
+}
+
+.texto-logica{
+
+	font-size: 1.6em;
+}
+
+.menu-modulos{
+
+
+	padding-left: 5% !important;
+	padding-top:30px !important;
+}
+
+.item-modulos{
+	font-size:  2em;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+
+.item-branco{
+
+	padding: 20px !important;
+	margin: 20px;
+	padding-left: 20% !important;
+}
+
+.titulo-afasta{
+	padding-top: 30px !important;
+	padding-left: 20% !important;
+}
+
+.ae2{
+	margin-top: -5px;
+}
+
+.label-direto{
+
+	font-size: 1.3em !important;
+	font-weight: 500;
+	background-color: #fff;
+	
+}
+
+.ye{
+
+	margin-top: 15vh !important;
+}
+
 
 
 
