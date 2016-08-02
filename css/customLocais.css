@@ -120,13 +120,13 @@ body{height: 100%; background-color: #f7f7f7}
 	color: #fff;
     line-height: 1.1;
 	font-weight: 700;
-	font-size: 3.8em;
+	font-size: 3.5em;
     border-left: 15px solid #fff;
     padding-left: 30px !important;
 }
 
 .foto-topo{
-	background-image: url('../assets/workshops.png');
+	background-image: url('../assets/locais.png');
 	animation-name: esquerda;
     animation-duration: 1.5s;    
     background-size: 1200px;
