@@ -139,12 +139,13 @@ body{height: 100%; background-color: #f7f7f7}
     line-height: 1.1;
 	font-weight: 700;
 	font-size: 3.8em;
-    border-left: 8px solid #fff;
+    border-left: 0px solid #fff;
     padding-left: 30px !important;
+    margin-top: 20px;
 }
 
 .foto-topo{
-	background-image: url('../assets/home_02.png');
+	background-image: url('../assets/imersivo.png');
 	animation-name: esquerda;
     animation-duration: 1.5s;    
     background-size: 1100px;
@@ -700,6 +701,12 @@ footer{
 }
 
 
+.oitos{
+
+	display: none;
+}
+
+
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -800,37 +807,41 @@ footer{
 	background-repeat: no-repeat;
 }
 
-.foto-home h2{
+.foto-home h3{
 
-	font-weight: 350;
-	font-size: 1.3em;
-	color: #fff;
+	font-weight: 600;
+	font-size: 13.9em;
+	color: #000;
+	margin-top: -30px;
+	margin-right: -80px;
 }
 
 .foto-home span{
 	color: #fff;
-	font-weight: 500;
-	font-size: 2.6em;
+    line-height: 1.1;
+	font-weight: 700;
+	font-size: 3.8em;
+    border-left: 0px solid #fff;
+    padding-left: 30px !important;
+    margin-top: 20px;
 }
 
-.esquerda{
+.foto-topo{
 	background-image: url('../assets/home_02.png');
 	animation-name: esquerda;
     animation-duration: 1.5s;    
-    background-size: 800px;
-}
-
-
-.direita{
-	background-image: url('../assets/home_01.png');
-	animation-name: direita;
-    animation-duration: 1.5s;
-    margin-top: 0px;   
-    background-size: 800px;
+    background-size: 1100px;
+    background-position: center;
 }
 
 
 
+.oitos{
+
+	font-size: 2.5em !important;
+	display: block;
+	margin-top: -70px !important;
+}
 
 
 

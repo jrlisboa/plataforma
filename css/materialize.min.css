@@ -17,3 +17,6 @@
 .footer .imersivos a{
   color: #000;
 }
+html {
+	overflow-x: hidden;
+}

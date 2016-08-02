@@ -142,7 +142,7 @@ body{height: 100%; background-color: #f7f7f7}
 }
 
 .foto-topo{
-	background-image: url('../assets/home_01.png');
+	background-image: url('../assets/workshops.png');
 	animation-name: esquerda;
     animation-duration: 1.5s;    
     background-size: 1200px;
