@@ -172,14 +172,14 @@ body{height: 100%; background-color: #f7f7f7}
 
 .texto-home h4{
 
-	font-size: 2em;
-	font-weight: 300;
+	font-size: 1.8em;
+	font-weight: lighter;
 	line-height: 1.5
 }
 
 .texto-home h2{
 
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 2.1em;
 }
 
@@ -259,11 +259,11 @@ body{height: 100%; background-color: #f7f7f7}
 }
 
 .primeiro-quadrado span{
-	font-size: 55px;
+	font-size: 2.8em;
 	line-height: 1.0;
 	font-weight: 600;
 	position: relative;
-	margin-left: -40px;
+	margin-left: -20px;
 	color: black;
 }
 
@@ -403,7 +403,7 @@ body{height: 100%; background-color: #f7f7f7}
 .branco-caixa{
 	padding: 20px 30px 10px 30px !important;
 	background-color: #fff;
-	width: 100%;
+
 	height: auto;
 	margin-top: 100px;
 }
@@ -443,13 +443,13 @@ body{height: 100%; background-color: #f7f7f7}
 /* Footer */
 
 .baixo{
-	width: 100%;
+	
+	position: relative;
 }
 
 footer{
 	margin-top: 10vh;
 	margin-bottom: 10vh;
-	width: 90%;
 }
 
 .gostou span{
@@ -473,10 +473,55 @@ footer{
 
 
 
+/*customs*/
+
+
+
+.campus{
+
+	margin-top: 20vh;
+	position: relative;
+}
+
+.head-campus{
+	background-image: url('../assets/campus.png');
+	background-position: bottom;
+	height: 400px;
+	background-size: 1400px;
+	background-repeat: no-repeat;
+}
+
+
+.tit-local{
+
+	font-size: 3.1em !important;
+	font-weight: 700 !important;
+	margin-top: -100px !important;
+	color: #000;
+	margin-bottom: 40px !important;
+}
+
+.conteudo-local-texto{
+	font-size: 1.6em !important;
+	font-weight: 400 !important;
+
+}
+
+.sobe-ae{
+
+	margin-top: 50px !important;
+}
 
 
 
 
+.head-cubo{
+	background-image: url('../assets/cubo.png');
+	background-position: bottom;
+	height: 400px;
+	background-size: 1400px;
+	background-repeat: no-repeat;
+}
 
 
 
@@ -742,7 +787,7 @@ footer{
 }
 
 .primeiro-quadrado span{
-	font-size: 55px;
+	font-size: 2.9em;
 	line-height: 1.0;
 	font-weight: 600;
 	position: relative;
@@ -959,5 +1004,69 @@ footer{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+
+
+
+/*customs*/
+
+
+
+.campus{
+
+	margin-top: 20vh;
+	position: relative;
+	margin-bottom: 20vh !important;
+}
+
+.head-campus{
+	background-image: url('../assets/campus.png');
+	background-position: bottom;
+	height: 400px;
+	background-size: 1400px;
+	background-repeat: no-repeat;
+}
+
+.conteudo-campus{
+	padding: 40px;
+}
+
+.cubo{
+
+	margin-top: 10vh !important;
+}
+
+.tit-local{
+
+	font-size: 2.8em !important;
+	font-weight: 700 !important;
+	margin-top: -100px !important;
+	color: #000;
+	margin-bottom: 40px !important;
+}
+
+.conteudo-local-texto{
+	font-size: 1.6em !important;
+	font-weight: 400 !important;
+
+}
+
+.sobe-ae{
+
+	margin-top: 50px !important;
+}
+
+
+
+
+.head-cubo{
+	background-image: url('../assets/cubo.png');
+	background-position: bottom;
+	height: 400px;
+	background-size: 1400px;
+	background-repeat: no-repeat;
+	margin-top: 20vh !important;
+}
+
 
 }
